@@ -1,0 +1,54 @@
+@import '../../node_modules/material-colors/dist/colors.styl'
+
+main {
+  header {
+    padding-bottom: 16px;
+    
+    h1 {
+      padding: 48px 128px 0 128px;
+      margin: 0;
+      
+      @media (max-width: 1200px) {
+        padding: 24px 48px 8px 48px;
+      }
+      
+      @media (max-width: 768px) {
+        padding: 16px 16px 8px 16px;
+      }
+    }
+    
+    .desc {
+      font-size: 80%;
+      color: md-grey-500;
+      padding-left: 128px;
+      padding-right: 128px;
+      
+      @media (max-width: 1200px) {
+        padding-left: 48px;
+        padding-right: 48px;
+      }
+      
+      @media (max-width: 768px) {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    }
+    
+    span {
+      margin-right: 4px;
+    }
+  }
+  
+  .article {
+    padding: 0 128px 64px 128px;
+    font-family: 'Noto Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei UI Light', '微软雅黑', 'Segoe UI Semibold', 'Roboto', sans-serif;
+    
+    @media (max-width: 1200px) {
+      padding: 0 48px 48px 48px;
+    }
+    
+    @media (max-width: 768px) {
+      padding: 0 16px 16px 16px;
+    }
+  }
+}

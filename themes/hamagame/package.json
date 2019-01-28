@@ -1,0 +1,31 @@
+{
+  "name": "hamagame",
+  "version": "1.0.0",
+  "description": "Hamagame hexo theme",
+  "scripts": {
+    "test": "gulp dev --color",
+    "format": "gulp format --color"
+  },
+  "keywords": [
+    "hamagame",
+    "hexo",
+    "theme"
+  ],
+  "author": "SettingDust",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.3.1",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-prettier": "^2.0.0",
+    "gulp-stylus": "^2.7.0",
+    "material-shadows": "^3.0.1",
+    "moment": "^2.22.2",
+    "prettier": "^1.15.2",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "gulp-minify": "^3.1.0",
+    "material-colors": "^1.2.6"
+  }
+}
